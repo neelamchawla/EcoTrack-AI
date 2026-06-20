@@ -22,7 +22,7 @@ describe('CalculatorPage', () => {
   });
 
   it('calculates and displays results on valid submit', async () => {
-    const logFootprint = vi.fn((inputs) => ({
+    const logFootprint = vi.fn(() => ({
       daily: 16.3,
       monthly: 489,
       sustainabilityScore: 35,
